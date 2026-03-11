@@ -1,6 +1,6 @@
 cask "macshot" do
-  version "1.2.7"
-  sha256 "4a56c93bb3785f0a23e560a6322c993cac26eedf8b490e6454fde111d0c32208"
+  version "1.3.0"
+  sha256 "3a72b8060092463b3fc859ab7ba1613d8908a158a52e7e1872f1e830cdc7e22b"
 
   url "https://github.com/sw33tLie/macshot/releases/download/v#{version}/macshot.zip"
   name "macshot"
@@ -10,6 +10,7 @@ cask "macshot" do
   app "macshot.app"
 
   zap trash: [
+    "~/Library/Application Support/com.sw33tlie.macshot",
     "~/Library/Preferences/com.sw33tlie.macshot.macshot.plist",
   ]
 end
