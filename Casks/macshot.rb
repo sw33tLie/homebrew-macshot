@@ -11,6 +11,7 @@ cask "macshot" do
 
   postflight do
     system_command "/usr/bin/mdimport", args: ["-o", "#{appdir}/macshot.app"]
+    system_command "/usr/bin/open", args: ["#{appdir}/macshot.app"]
   end
 
   zap trash: [
