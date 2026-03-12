@@ -1,8 +1,8 @@
 cask "macshot" do
   version "1.5.0"
-  sha256 "f8b1cef56667660781edff94f454853bea3bdd3e4e7f27cce2c0b9bb65c714f1"
+  sha256 "6ff0e325e75cc8a1b34a1fb25748108637911eab0c5a9cec0b7f0913214a2c7f"
 
-  url "https://github.com/sw33tLie/macshot/releases/download/v#{version}/macshot.zip"
+  url "https://github.com/sw33tLie/macshot/releases/download/v#{version}/MacShot.dmg"
   name "macshot"
   desc "Native macOS screenshot tool inspired by Flameshot"
   homepage "https://github.com/sw33tLie/macshot"
