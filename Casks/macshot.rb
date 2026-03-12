@@ -9,6 +9,10 @@ cask "macshot" do
 
   app "macshot.app"
 
+  postflight do
+    system_command "/usr/bin/mdimport", args: ["-o", "#{appdir}/macshot.app"]
+  end
+
   zap trash: [
     "~/Library/Application Support/com.sw33tlie.macshot",
     "~/Library/Preferences/com.sw33tlie.macshot.macshot.plist",
