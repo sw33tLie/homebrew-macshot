@@ -10,7 +10,7 @@ cask "macshot" do
   app "macshot.app"
 
   postflight do
-    system_command "/usr/bin/mdimport", args: ["-o", "#{appdir}/macshot.app"]
+    system_command "/usr/bin/mdimport", args: ["-i", "#{appdir}/macshot.app"]
     system_command "/usr/bin/open", args: ["#{appdir}/macshot.app"]
   end
 
