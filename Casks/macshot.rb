@@ -1,6 +1,6 @@
 cask "macshot" do
-  version "2.5.4"
-  sha256 "3e0c2a2e7b0b048d58edc7c8a91b270025c22167c3373170130c2f767137282d"
+  version "2.5.5"
+  sha256 "986973460b0a96fdc062cd5d9ea67168ed2dc8d23b79c7625890c75009126e8a"
 
   url "https://github.com/sw33tLie/macshot/releases/download/v#{version}/MacShot.dmg"
   name "macshot"
